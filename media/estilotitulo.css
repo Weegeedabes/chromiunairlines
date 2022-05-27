@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+    }
+
+h1{
+	font-family: 'Product Sans Regular';
+}
+
+h2 {
+	font-family: 'Product Sans Regular';
+	background-image: url(https://i.ibb.co/0Mjbh2j/bg1.gif);
+	background-size: 4vw;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 10px 0;
+}
+h3 {
+	background-image: url(https://i.ibb.co/0Mjbh2j/bg1.gif);
+	background-size: 4vw;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 10px 0;
+}
