@@ -120,7 +120,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     
@@ -137,6 +137,17 @@ body{
     background-color: rgba(0,0,0, 0.4);
     color: white;
     width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+  }
+  .animar3 {
+    font-family: 'Product Sans Regular';
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    width: 26%;
     padding: 12px 20px;
     border: none;
     border-bottom: 2px solid #ffffff;
@@ -334,4 +345,8 @@ input[type="date"], focus {
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+  }
+
+  #imagenes img:hover{
+    transform: scale(1.15);
   }
